@@ -51,8 +51,20 @@
       "description": "Converts specs into action, coordinates cross-functional delivery, optimizes daily processes, and turns data into decisions."
     }
   ],
-  "skills": [],
-  "cronjobs": [],
+  "skills": [
+    {
+      "key": "gemini-deep-research-using-web",
+      "path": "skills/gemini-deep-research-using-web",
+      "scope": { "agent": "marketing" }
+    }
+  ],
+  "cronjobs": [
+    {
+      "key": "weekly-demand-research",
+      "file": "cronjobs/weekly-demand-research.yaml",
+      "agent": "marketing"
+    }
+  ],
   "compatibility": {
     "minShellVersion": "0.1.0"
   }
