@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "appId": "it-team",
+  "name": "IT Team",
+  "version": "1.0.0",
+  "description": "A complete IT team with agents for marketing, product, development, testing, and operations — each merged from the best specialists across the ClawShell ecosystem.",
+  "author": {
+    "name": "ClawShell Team"
+  },
+  "repository": "https://github.com/zenolam/clawshell-app-it-team",
+  "entry": {
+    "index": "ui/dist/index.html"
+  },
+  "permissions": {
+    "workspace": {
+      "read": true,
+      "write": true
+    },
+    "storage": {
+      "localStorage": true,
+      "cache": true
+    },
+    "network": {
+      "allowedOrigins": []
+    }
+  },
+  "agents": [
+    {
+      "key": "marketing",
+      "name": "市场",
+      "description": "Crafts the story, spreads it everywhere, drives organic growth through SEO, and finds untapped channels to scale."
+    },
+    {
+      "key": "product",
+      "name": "产品",
+      "description": "Synthesizes user feedback, prioritizes with data, spots trends, and drives measurable outcomes from idea to impact."
+    },
+    {
+      "key": "development",
+      "name": "开发",
+      "description": "Designs workflows, orchestrates the dev pipeline, builds integration tools, and ships with discipline from spec to production."
+    },
+    {
+      "key": "quality",
+      "name": "测试",
+      "description": "Tests APIs, benchmarks performance, analyzes results, and requires overwhelming evidence before approving production readiness."
+    },
+    {
+      "key": "operations",
+      "name": "运营",
+      "description": "Converts specs into action, coordinates cross-functional delivery, optimizes daily processes, and turns data into decisions."
+    }
+  ],
+  "skills": [],
+  "cronjobs": [],
+  "compatibility": {
+    "minShellVersion": "0.1.0"
+  }
+}
