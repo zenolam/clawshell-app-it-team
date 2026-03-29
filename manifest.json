@@ -55,7 +55,7 @@
     {
       "key": "gemini-deep-research-using-web",
       "path": "skills/gemini-deep-research-using-web",
-      "scope": { "agent": "marketing" }
+      "scope": { "type": "agent", "agentKey": "marketing" }
     }
   ],
   "cronjobs": [

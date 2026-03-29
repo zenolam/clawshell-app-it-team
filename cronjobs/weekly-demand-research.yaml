@@ -1,6 +1,7 @@
+key: weekly-demand-research
 name: weekly-demand-research
 schedule: "0 9 * * 5"
-agent: marketing
+agentId: marketing
 prompt: |
   使用 gemini-deep-research-using-web 技能，执行以下调研任务：
 
